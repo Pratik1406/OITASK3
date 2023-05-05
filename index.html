@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Temperature Converter</title>
+<link rel="stylesheet" type="text/css" href="cal.css">
+</head>
+<body>
+<h1>Temperature Converter</h1>
+<form id="converter">
+<label>
+Temperature:
+<input type="text" id="temp" required>
+</label>
+<label>
+Convert from:
+<select id="from">
+<option value="celsius">Celsius</option>
+<option value="fahrenheit">Fahrenheit</option>
+<option value="kelvin">Kelvin</option>
+</select>
+</label>
+<label>
+Convert to:
+<select id="to">
+<option value="celsius">Celsius</option>
+<option value="fahrenheit">Fahrenheit</option>
+<option value="kelvin">Kelvin</option>
+</select>
+</label>
+<button type="button" onclick="convert()">Convert</button>
+</form>
+<div id="result"></div>
+<script src="calci.js">
+</script>
+</body>
+</html>
